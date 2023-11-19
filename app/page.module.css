@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
 
 .pageContainer {
-  background-image: url('/background.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+  background-image: url('/background.webp'); /* Reemplaza con la ruta de tu imagen de fondo */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -25,7 +25,7 @@
   align-items: center;
   height: 500px;
   width: 400px;
-  background: url('/tenista.png') center/100% 100%; /* Ajusta '100% 100%' para que la imagen ocupe el 100% */
+  background: url('/tenista.webp') center/100% 100%; /* Ajusta '100% 100%' para que la imagen ocupe el 100% */
   background-repeat: no-repeat;
   filter: drop-shadow(10px 0 10px rgba(0, 0,0,0.5));
 }

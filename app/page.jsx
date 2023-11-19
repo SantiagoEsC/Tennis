@@ -4,7 +4,7 @@ import styles from './page.module.css'
 
 const links = [{
   label: 'Inscríbete ahora',
-  route: '/login'
+  route: '/signup'
 }]
 
 function IndexPage() {
@@ -22,11 +22,11 @@ function IndexPage() {
           <h3>¿Listo para darlo todo en la cancha?</h3>
         {/* Agrega más contenido específico de la landing page aquí */}
         {links.map(({ label, route }) => (
-          <li key = {route} className={styles.landingLink}>
+          <p key = {route} className={styles.landingLink}>
             <Link href={route}>
               {label}
             </Link>
-          </li>
+          </p>
         ))}
       </div>
     </div>
